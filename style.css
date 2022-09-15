@@ -26,7 +26,13 @@ a:visited {
 
 .logo {
     margin: 1rem;
-    font-size: 2em;
+    font-size: 24pt;
+}
+
+.logo:hover {
+    font-size: 28pt;
+    transition: 0.3s;
+    transition-timing-function: ease;
 }
 
 .github {
